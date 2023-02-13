@@ -1,0 +1,69 @@
+body {
+    color: #70757a;
+}
+
+.col-2 .col-2,
+.col-2 {
+    color: black;
+}
+
+#day1 .col-3 {
+    color: red;
+}
+
+#day2 .col-3 {
+    color: blue;
+}
+
+#day3 .col-3 {
+    color: green;
+}
+
+#day4 .col-3 {
+    color: hotpink;
+}
+
+#day5 .col-3 {
+    color: lightblue;
+}
+
+h1 {
+    color: black;
+    font-size: 28px;
+    line-height: 26px;
+    font-family: Google Sans, arial, sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+h2 {
+    color: #70757a;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: Google Sans, arial, sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+li {
+    color: #70757a;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: arial, sans-serif;
+    display: block;
+    text-align: left;
+}
+
+div {
+    color: #70757a;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: arial, sans-serif;
+    display: block;
+    text-align: left;
+}
+
+#todays_weather_icon {
+    color: rgb(240, 188, 16);
+    font-size: 40px;
+}

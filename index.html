@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/82071ec3f5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <input id="cityInput" type="text" placeholder=" Type a City" /><button>
+      Search
+    </button>
+    <div class="containter">
+      <h1 id="cityID">Scottsdale</h1>
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <div class="col-1" id="tempHTML"></div>
+            <div class="col-1" id="celcius">°C</div>
+          </div>
+          <!--<i id="todays_weather_icon" class="fa-sharp fa-solid fa-sun"></i
+            ><i class="fa-solid fa-temperature-half">ssss</i>-->
+
+          <ul>
+            <li id="cityID2">Scottsdale</li>
+            <li id="current_time"></li>
+            <li id="weatherDesc">Sunny</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li>
+              <ul style="column-count: 2">
+                <li>Humidity:</li>
+                <li id="humidity">0</li>
+              </ul>
+            </li>
+            <li>
+              <ul style="column-count: 2">
+                <li>Wind:</li>
+                <li id="windspeedKmph">0</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container">saved for graph</div> -->
+
+    <!--====================-->
+    <!--Days below-->
+    <!--====================-->
+
+    <div class="container">
+      <div class="row">
+        <div id="day1" class="col-2">
+          Sun
+          <div class="col-3">
+            <i class="fa-solid fa-cloud-showers-water"></i>
+            <div class="col-2">10°C</div>
+          </div>
+        </div>
+        <div id="day2" class="col-2">
+          Mon
+          <div class="col-3">
+            <i class="fa-solid fa-bolt"></i>
+            <div class="col-2">12°C</div>
+          </div>
+        </div>
+        <div id="day3" class="col-2">
+          Tue
+          <div class="col-3">
+            <i class="fa-solid fa-cloud-showers-water"></i>
+            <div class="col-2">12°C</div>
+          </div>
+        </div>
+        <div id="day4" class="col-2">
+          Wed
+          <div class="col-3">
+            <i class="fa-solid fa-cloud-showers-water"></i>
+            <div class="col-2">12°C</div>
+          </div>
+        </div>
+        <div id="day5" class="col-2">
+          Thu
+          <div class="col-3">
+            <i class="fa-sharp fa-solid fa-sun"></i>
+            <div class="col-2">13°C</div>
+          </div>
+        </div>
+        <div id="day6" class="col-2">
+          Fri
+          <div class="col-3">
+            <i class="fa-sharp fa-solid fa-sun"></i>
+            <div class="col-2">13°C</div>
+          </div>
+        </div>
+        <div id="day7" class="col-2">
+          Sat
+          <div class="col-3">
+            <i class="fa-sharp fa-solid fa-sun"></i>
+            <div class="col-2">13°C</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="src/index.js"></script>
+</html>
